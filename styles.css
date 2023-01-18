@@ -1,0 +1,85 @@
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    }
+    header{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+    header h1{
+    margin: 0;
+    }
+    main{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    section{
+    margin-bottom: 20px;
+    }
+    section img{
+    max-width: 100%;
+    }
+    
+    form input, form button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+    form label{
+    display: block;
+    margin-bottom: 5px;
+    }
+    form button {
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    }
+    .listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    .listings li {
+    width: 30%;
+    margin-bottom: 20px;
+    }
+    
+    .listings img {
+    max-width: 100%;
+    }
+    .blog-preview img {
+    width: 30%;
+    margin-right: 20px;
+    }
+    
+    #results-table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+    #results-table th, #results-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+    #results-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+    #results-table tr:hover {
+    background-color: #ddd;
+    }
+    #results-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4caf50;
+    color: white;
+    }
