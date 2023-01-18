@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Affordable Housing Finder</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Affordable Housing Finder.</h1>
+    </header>
+    <main>
+      <section>
+        <h2>
+          Looking for a new home that won't break the bank? You've come to the
+          right place!
+        </h2>
+        <p>
+          Our free service helps people find affordable housing options in their
+          area. We understand that finding affordable housing can be stressful
+          and time-consuming, so we've made it easy to search for your new home.
+          Simply enter your location and budget in the form below, and our
+          search engine will show you a list of available options that meet your
+          criteria. You can then click on any listing to view more details,
+          including photos, descriptions, and contact information for the
+          property owner or manager.
+        </p>
+      </section>
+      <section>
+        <form id="search-form">
+          <label for="location">Location:</label><br />
+          <input type="text" id="location" name="location" />
+          <br />
+          <label for="budget">Budget:</label>
+          <br />
+          <input type="number" id="budget" name="budget" />
+          <br />
+          <input type="submit" value="Search" />
+        </form>
+        <table id="results-table">
+          <tr>
+            <th>ID</th>
+            <th>Location</th>
+            <th>Description</th>
+          </tr>
+        </table>
+      </section>
+      <section>
+        <h2>
+          Not sure where to start? Check out our blog for tips on finding the
+          perfect affordable home, as well as advice on budgeting, decorating,
+          and more.
+        </h2>
+        <div class="blog-preview">
+          <img src="blog-image.jpg" alt="Blog post image" />
+          <h3>5 Tips for Finding an Affordable Home</h3>
+          <p>
+            Finding an affordable home can be tough, but it's not impossible.
+            Here are five tips to help you find the perfect home at a price you
+            can afford...
+          </p>
+          <a href="blog-post.html">Read more</a>
+        </div>
+      </section>
+      <section>
+        <h2>Recent Listings:</h2>
+        <!--LISTING OF AVAILABLE HOUSES-->
+        <ul class="listings">
+          <li>
+            <img src="images/m2.jpg" alt="" />
+            <h3>2 Bedroom Apartment</h3>
+            <p>Price: $800/month</p>
+            <p>Location: Kariakoo</p>
+            <a href="listing-1.html"></a>
+          </li>
+          <li>
+            <img src="images/m0.jpg" alt="Listing image" />
+            <h3>3 Bedroom House</h3>
+            <p>price: $650/month</p>
+            <p>Location: Posta</p>
+          </li>
+
+          <li>
+            <img src="images/m9.jpg" alt="Listing image" />
+            <h3>1 Bedroom Apartments</h3>
+            <p>price: $350/month</p>
+            <p>Location: Kigamboni</p>
+          </li>
+          <li>
+            <img src="images/m11.jpg" alt="Listing image" />
+            <h3>3 Bedroom House</h3>
+            <p>price: $600/month</p>
+            <p>Location: Tabata</p>
+          </li>
+          <li>
+            <img src="images/k1.jpg" alt="Listing image" />
+            <h3>3 Bedroom House</h3>
+            <p>price: $650/month</p>
+            <p>Location: Mbezi beach</p>
+          </li>
+          <li>
+            <img src="images/k4.jpg" alt="Listing image" />
+            <h3>3 Bedroom House</h3>
+            <p>price: $650/month</p>
+            <p>Location: Mbezi Luis</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
